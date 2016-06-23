@@ -1,0 +1,165 @@
+
+body {
+    padding: 0;
+    height: 100%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+    .doc-editor-wrapper{
+        height: 850px;width: auto;padding-left: 5%;padding-right: 5%;margin-bottom: 2%;
+    }
+    .doc-editor-toolbar{
+        width: auto;padding-left: 5%;padding-right: 5%;
+    }
+}
+
+#editorContainer{
+    width:inherit; height:inherit; margin:0px; padding:0px
+}
+#webodfeditor-editor1{
+    width:inherit; height:850px !important; margin:0px; padding:0px
+}
+.doc-editor-wrapper{
+    height: 850px;width: auto;padding-left: 5%;padding-right: 5%;margin-bottom: 2%;
+}
+.custom-container{
+    padding-left:15px; padding-right: 15px;
+}
+
+.webodfeditor-dijitWebODFIcon{
+    display: none !important;
+}
+.webodfeditor-toolbarcontainer{
+    position: static !important;
+}
+.form-wrapper{
+    height:auto;
+    width:305px;
+    position:absolute;
+    z-index:10;
+    background-color:#e5e5e5;
+    border:1px solid rgb(204,204,204);
+    margin-left:5%;
+}
+div.patientForm { background:#345; width:5px;background:#0F0; margin:3px; width:600px; height:600px; float:right; }
+#patientForm{
+    display:none;
+}
+.button-margin{
+    margin-left:5%;
+    margin-right:5%;
+}
+table {
+    border-collapse: collapse;
+    padding:5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 10px !important;
+}
+.ui-datepicker {
+    width:20%;
+    height:200px;
+}
+.ui-datepicker table{
+    font-size:8px !important;
+    border:0px !important;
+}
+table:table-cell{
+    border-left: 0.002cm solid rgb(0, 0, 0);
+    border-right: none;
+    border-top: none;
+    border-bottom: 0.002cm solid rgb(0, 0, 0);
+}
+
+.description {
+    padding:0px 10px;
+    border:1px solid black;
+    background-color:white;
+    text-overflow: ellipsis;
+    width:280px!important;
+    height:50px;
+    -webkit-line-clamp: 2;
+    font-size:10px; 
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dropdown-menu>li>a{
+    padding:3px 8px;
+}
+
+.outerBox {
+    padding:3% 10%;
+}
+
+.doc-editor-wrapper>table{
+    display: block;
+}
